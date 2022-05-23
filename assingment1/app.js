@@ -314,95 +314,34 @@
 
 // Task no 5
 
-// var namesub1 = prompt("Enter a your subject name")
-// var smark1 = parseInt (prompt("Enter Obtained marks of this subject"))
+// var sub1 = "Math";
+// var sub2 = "English";
+// var sub3 = "Urdu";
+// var totalmarks = 100;
+// var Obtainedmarks1 = 90;
+// var Obtainedmarks2 = 76;
+// var Obtainedmarks3 = 66;
+// var percent1 = Obtainedmarks1 / totalmarks * 100;
+// var percent2 = Obtainedmarks2 / totalmarks * 100;
+// var percent3 = Obtainedmarks3 / totalmarks * 100;
+// var total = 3 * totalmarks;
+// var totalobtained = Obtainedmarks1 + Obtainedmarks2 + Obtainedmarks3;
+// var totalpercent = totalobtained / total * 100;
 
-// var namesub2 = prompt("Enter a your subject name")
-// var smark2 =  parseInt (prompt("Enter Obtained marks of this subject"))
+// document.write("<h3> subjects"  + " " +  "Totalmarks" + " " + "obtainedmarks" + " " + "Percentage </h3>")
 
-// var namesub3 = prompt("Enter a your subject name")
-// var smark3 = parseInt (prompt("Enter Obtained marks of this subject"))
+// document.write(sub1 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks1 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent1 + "%"  )
 
-// var eamark = 100
-// var eacper1 = smark1 / eamark * 100
-// var eacper2 = smark2 / eamark * 100
-// var eacper3 = smark3 / eamark * 100
+// document.write("<br><br>")
 
-// var tomarksub = 300
-// var obtmarks = smark1 + smark2 + smark3
-// var per = obtmarks / tomarksub * 100
+// document.write(sub2 + `\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks2 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent2 + "%")
 
-// document.write(`<table>
-// <tr>
-//     <th>Subject</th>
-//     <th>Total Marks</th>
-//     <th>Obtained Marks</th>
-//     <th>Percentage</th>
-// </tr>
+// document.write("<br><br>")
 
-// <tr>
-//     <td>${namesub1}</td>
-//     <td>${eamark}</td>
-//     <td>${smark1}</td>
-//     <td>${eacper1}</td>
-// </tr>
+// document.write(sub3 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks3 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent3 + "%")
 
-// <tr>
-//     <td>${namesub2}</td>
-//     <td>${eamark}</td>
-//     <td>${smark2}</td>
-//     <td>${eacper2}</td>
-// </tr>
+// document.write("<br><br>")
+// document.write("-------------------------------------------------------------------------------------")
+// document.write("<br>")
 
-// <tr>
-//     <td>${namesub3}</td>
-//     <td>${eamark}</td>
-//     <td>${smark3}</td>
-//     <td>${eacper3}</td>
-// </tr>
-
-// <tr>
-//     <td></td> 
-//     <td>${tomarksub}</td>
-//     <td>${obtmarks}</td>
-//     <td>${per}</td>
-// </tr>
-// </table>`)
-
-// task:05
-
-var sub1 = "Math";
-var sub2 = "English";
-var sub3 = "Urdu";
-var totalmarks = 100;
-var Obtainedmarks1 = 90;
-var Obtainedmarks2 = 76;
-var Obtainedmarks3 = 66;
-var percent1 = Obtainedmarks1 / totalmarks * 100;
-var percent2 = Obtainedmarks2 / totalmarks * 100;
-var percent3 = Obtainedmarks3 / totalmarks * 100;
-var total = 3 * totalmarks;
-var totalobtained = Obtainedmarks1 + Obtainedmarks2 + Obtainedmarks3;
-var totalpercent = totalobtained / total * 100;
-
-document.write("<h3> subjects"  + " " +  "Totalmarks" + " " + "obtainedmarks" + " " + "Percentage </h3>")
-
-document.write(sub1 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks1 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent1 + "%"  )
-
-document.write("<br><br>")
-
-document.write(sub2 + `\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks2 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent2 + "%")
-
-document.write("<br><br>")
-
-document.write(sub3 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalmarks + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + Obtainedmarks3 + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0`+ percent3 + "%")
-
-document.write("<br><br>")
-document.write("-------------------------------------------------------------------------------------")
-document.write("<br>")
-
-document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + total + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalobtained + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalpercent + "%")
-
-// var str = new String("Demo Text");
-//          document.write(str.bold());
-//          alert(str.bold());
+// document.write(`\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + total + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalobtained + `\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0` + totalpercent + "%")
