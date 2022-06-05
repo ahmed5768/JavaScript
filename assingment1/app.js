@@ -936,3 +936,153 @@
 //     <option>${mobiles[4]}</option>
 //     <option>${mobiles[5]}</option>
 // </select>`)
+
+// Chapter no 17-20
+
+// Task no 1
+
+// var arr =[[],[],[],[],[]]
+
+// Task no 2
+
+//  var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]]
+// for (i = 0; i < arr.length; i++){
+//     document.write(arr[i].join("") + "<br>")
+// }
+
+// Task no 3
+
+// for (i = 1; i <= 10; i++ ){
+//     document.write(i + "<br>")
+// }
+
+// Task no 4  
+
+// var table = +prompt("Enter your table")
+// var leng = +prompt("Enter your table length")
+
+// for (i = 1; i <= leng; i++){
+//     document.write(table + " x " + i + " = " + table * i + "<br>")
+// }
+
+// Task no 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+// for (i = 0; i < fruits.length; i++ ){
+//     document.write(fruits[i] + "<br>")
+// }
+// document.write("<br>")
+// for (i = 0; i < fruits.length; i++){
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br>")
+// }
+
+// Task no 6
+// document.write("<h1>Counting</h1>")
+// for (i = 1; i <= 15; i++){
+    // document.write(i + ",")
+// }
+
+// document.write("<h1>Reverse counting</h1>")
+// for (i = 10; i >= 0; i--){
+    // document.write(i + ",")
+// }
+
+
+// document.write("<h1>Even counting</h1>")
+// for (i = 0; i <= 20; i++){
+    // if(i % 2 === 0){
+        // document.write(i + "  ")
+    // }
+// }
+
+
+// document.write("<h1>ODD Number</h1>")
+// for (i = 0; i <= 20; i++) {
+
+    // if (i % 2 === 1) {
+        // document.write(i + " ")
+    // }
+// }
+
+// document.write("<h1>Series</h1>")
+// for (i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         document.write(i + "K" + " ")
+//     }
+// }
+
+// Task no 7 
+
+// A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// userinput = prompt("Enter a snack :")
+// flag = false;
+// for (i = 0; i <= A.length; i++){
+//     if(userinput === A[i]){
+//         flag = true
+//         document.write(userinput + " is available at index " + i + " in our bakery")
+//     }
+// }
+// if(flag === false){
+//     document.write(userinput + " is not available")
+// }
+
+// Task no 8
+
+// var A = [24, 53, 78, 91, 12,400,343,687,5,34,67,89]
+
+// var compareint = A[0];
+
+//  var match = "nahi";
+
+
+// for(i=0;i < A.length; i++)
+// {
+//     if(compareint < A[i]){
+
+//         match = "Yes";
+//         compareint = A[i]
+//     }
+// }
+
+// if(match === "Yes"){
+//     console.log(compareint)
+// }
+// else{
+//     console.log("Sorry")
+
+// }
+
+// Task no 9
+
+// var A = [24, 53, 78, 91, 12,400,343,687,5,34,67,89]
+
+// var compareint = A[0];
+
+//  var match = "nahi";
+
+
+// for(i=0;i < A.length; i++)
+// {
+//     if(compareint > A[i]){
+
+//         match = "Yes";
+//         compareint = A[i]
+//     }
+// }
+
+// if(match === "Yes"){
+//     console.log(compareint)
+// }
+// else{
+//     console.log("Sorry")
+
+// }
+
+// Task no 10
+
+// for(i = 1; i <= 100 ; i++){
+//     if(i % 5 == 0)
+//     {
+//         document.write(i + ",")
+//     }
+// }
