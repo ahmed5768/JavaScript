@@ -1086,3 +1086,261 @@
 //         document.write(i + ",")
 //     }
 // }
+
+// Chapter no 21-25
+
+// Task no 1
+
+// var firstname = prompt("Enter your firstname");
+// var lastname = prompt("Enter your lastname");
+// var fullname = firstname + lastname;
+// alert("Assalam-o-alikum " + fullname)
+
+// Task no 2
+
+// var userphone = prompt("Enter your favourite mobile phone")
+// var len = userphone.length
+// document.write("My favourite mobile phone is : " + userphone + "<br>")
+// document.write("Length of string : " + len)
+
+// Task no 3
+
+// var paki = "Pakistani"
+// var index = paki.indexOf("n")
+// document.write("String: " + paki +"<br>" + "index of n : " + index)
+
+// Task no 4
+
+// // var hello = "Hello World"
+// // var index = hello.lastIndexOf("l")
+// // document.write("String: " + hello +"<br>" + "Last index of l : " + index)
+
+// Task no 5
+
+// // var pakis = "Pakistani"
+// // var char = pakis.charAt(3)
+// // document.write("String: " + pakis +"<br>" + "index of 3 : " + char)
+
+// Task no 6
+
+// // var firstname = prompt("Enter your firstname");
+// // var lastname = prompt("Enter your lastname");
+// // var fullname = firstname.concat(lastname);
+// // alert("Assalam-o-alikum " + fullname)
+
+// Task no 7
+
+// // var city = "Hyderabad"
+// // var replacedcity = "islam" + city.slice(city.indexOf("bad"));
+// // console.log(replacedcity)
+
+// // var index = city.indexOf("Hyder")
+// // console.log(index)
+// // var firsttext = city.slice(index)
+// // var replace = "isla"
+// // document.write("City: " + city + "<br> After replacement: " + replace + firsttext)
+
+// // var city = "Hyderabad"
+// // var rep = city.replace("Hyder","Islam")
+// // console.log(rep)
+
+// Task no 8
+
+// // var message = "Ali and Sami are best friends. They play cricket and football together.";
+// // var re = message.replace(/and/g,"&")
+// // document.write(re)
+
+// Task no 9
+
+// // var integer = "472"
+// // var type = typeof(integer)
+// // var num = Number(integer)
+// // var type2 = typeof(num)
+// // document.write("Value: " + integer + "<br> Type: " + type + "<br> Value: " + num + "<br> Type: " + type2)
+
+// Task no 10
+
+// // var user = prompt("Enter your input")
+// // var upp = user.toUpperCase()
+// // document.write(upp)
+
+// Task no 11
+
+// // var userInput = prompt("Enter your input")
+// // var slic = userInput.slice(0,1)
+// // var upper = slic.toUpperCase()
+// // var sli2 = userInput.slice(1)
+// // var lower = sli2.toLowerCase()
+// // document.write("Userinput: " + userInput + "<br> Title case: " + upper + lower)
+
+// Task no 12
+
+// // var num = 35.36 ;
+// // var numberAsString = num.toString();
+// // var ep = numberAsString.replace(".","")
+// // document.write("Number: " + num + "<br> Result: " + ep)
+
+// Task no 13
+
+// // var userInput = prompt("Enter your input")
+// // var isTrue = false;
+// // for (i = 0; i < userInput.length; i++) {
+
+// //     if (userInput[i] == "!" || userInput[i] === "@") {
+// //         isTrue = true;
+// //         alert("invalid")
+
+// //     }
+
+// // }
+// // if (isTrue == false) {
+// //     alert("valid")
+// // }
+
+// Task no 14
+
+// var bakery = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var flag = false
+// var user = prompt("Enter your item")
+// var lower = user.toLowerCase()
+// for(i = 0; i < bakery.length; i++){
+//     if(bakery[i] === lower){
+//         alert(lower + " is available at index " + i + " in our bakery")
+//         flag = true
+//     }
+// }
+// if(flag === false){
+//     alert(lower + " is not available in our bakery")
+// }
+
+// Task no 15
+
+// // var a = [
+// //     "A",
+// //     "B",
+// //     "C",
+// //     "D",
+// //     "E",
+// //     "F",
+// //     "G",
+// //     "H",
+// //     "I",
+// //     "J",
+// //     "K",
+// //     "L",
+// //     "M",
+// //     "N",
+// //     "O",
+// //     "P",
+// //     "Q",
+// //     "R",
+// //     "S",
+// //     "T",
+// //     "U",
+// //     "V",
+// //     "W",
+// //     "X",
+// //     "Y",
+// //     "Z",
+// // ];
+// // var b = [
+// //     "a",
+// //     "b",
+// //     "c",
+// //     "d",
+// //     "e",
+// //     "f",
+// //     "g",
+// //     "h",
+// //     "i",
+// //     "j",
+// //     "k",
+// //     "l",
+// //     "m",
+// //     "n",
+// //     "o",
+// //     "p",
+// //     "q",
+// //     "r",
+// //     "s",
+// //     "t",
+// //     "u",
+// //     "v",
+// //     "w",
+// //     "x",
+// //     "y",
+// //     "z",
+// // ];
+// // var c = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+// // var pass = prompt("Enter your password");
+
+// // var isNumber = false;
+// // var isAlpha = false;
+// // var isInvalid = false;
+
+// // if (c.indexOf(pass[0]) !== -1) {
+// //     alert("Number is not allowed on index 0")
+// // }
+// // else if (pass.length < 6) {
+// //     alert("Password should be at leasat 6")
+// // }
+
+// // else {
+
+// //     for (i = 0; i < pass.length; i++) {
+
+// //         if (a.indexOf(pass[i]) !== -1) {
+
+// //             isAlpha = true;
+// //         }
+// //         else if (b.indexOf(pass[i]) !== -1) {
+
+// //             isAlpha = true;
+// //         }
+// //         else if (c.indexOf(pass[i]) !== -1) {
+
+// //             isNumber = true;
+// //         }
+// //         else {
+
+// //             isInvalid = true;
+
+// //         }
+// //     }
+// //     if (isNumber && isAlpha && !isInvalid) {
+
+// //         alert("Correct !")
+// //     }
+// //     else {
+
+// //         alert("password not meet the requirement ")
+// //     }
+// // }
+
+// Task no 16
+
+// // var university = "University of Karachi";
+// // var splt = university.split("").join("<br>")
+// // document.write(splt + "<br>")
+
+// Task no 17
+
+// // var character = prompt("Enter your string : ");
+
+// // var LastChar = (character.length) - 1;
+// // console.log(character[LastChar])
+
+// Task no 18
+
+// var name = prompt("Enter your String :");
+// var findWord = prompt("Enter your word which find from string : ");
+// var replacedWord = prompt("Enter your word which replace from string : ");
+// var splitedValue = name.split(' ');
+
+// for(i=0; i<splitedValue.length; i++){
+//     if(splitedValue[i]===findWord){
+//         var name= name.replace(splitedValue[i],replacedWord)
+//     }
+// }
+// console.log(name)
+
