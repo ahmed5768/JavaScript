@@ -1386,7 +1386,11 @@
 
 // task:05
 
-
+// var ht = ["head","tail"]
+// var  randomNumbers = Math.random()*ht.length;
+// var  roundMethod = Math.round(randomNumbers)
+// var  FloorMethod = Math.floor(randomNumbers)
+// console.log(ht[FloorMethod])
 
 
 // task:06
@@ -1552,3 +1556,28 @@
 // alert("100 years back it was" + currentDate);
 
 // task:14
+
+// var Month = ["Jan", "Feb", "Marach", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov"]
+
+// var customerName = prompt("Enter your Name : ");
+// var currentMonth = new Date().getMonth();
+// var numberOfUnit = +prompt("Enter number of Units :");
+// var ChargesOfUnit = +prompt("Enter Charges per unit :");
+// var LatePaymentSurcharge = +prompt("Enter Late Payment Surcharge :");
+// var netAmount = +prompt("Enter Net Amount Payable (within Due Date)");
+
+// var net_Amount_Payable = numberOfUnit * ChargesOfUnit;
+// var Gross_Amount_Payable = netAmount + LatePaymentSurcharge;
+
+
+
+
+// document.write(`<h1>K-Electric Bill <br> </h1>`)
+// document.write(`Customer Name: <b>${customerName}</b> <br> `)
+// document.write(`Month: <b>${Month[currentMonth]}</b> <br>`)
+// document.write(` Number of Units: <b>${numberOfUnit} </b><br>`)
+// document.write(`Charges per unit: <b>${ChargesOfUnit}</b> <br> `)
+
+// document.write(`Net Amount Payable (within Due Date): <b>${net_Amount_Payable}</b> <br>`)
+// document.write(`Late Payment Surcharge: <b>${LatePaymentSurcharge}</b> <br> </h4>`)
+// document.write(`Gross Amount Payable (after Due Date): <b>${Gross_Amount_Payable}</b> <br>`)
